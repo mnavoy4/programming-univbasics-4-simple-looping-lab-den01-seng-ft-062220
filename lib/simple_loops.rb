@@ -20,6 +20,13 @@ def output_array(array)
   end
 end
 
-def return_string_array
+def return_string_array(array)
+  new = []
+  counter = 0
+  while counter < array.length do
+    to_string = array[counter].to_s
+    new.push(to_string)
+  end
+  new
   
 end
